@@ -1,0 +1,52 @@
+.card__details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.eth__price {
+  font-weight: bold;
+  padding: 0px 20px 0px 5px;
+}
+.eth__mint__count {
+  border-left: 1px solid rgb(15, 129, 190);
+  font-weight: bold;
+  padding: 0px 20px 0px 15px;
+}
+.card__heading {
+  color: rgb(15, 129, 190);
+  font-size: 16px;
+  padding: 20px 0px 0px 0px !important;
+  font-weight: bold;
+}
+.mint__heading2 {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 8px 10px;
+  text-align: left;
+}
+.mint__p2 {
+  padding: 0px 10px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.mint__btn,
+.mint__btn:focus {
+  font-size: 1.5rem;
+  width: 180px;
+  font-size: 18px;
+  color: #330b65;
+  font-weight: bold;
+  border: none;
+  height: 53px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 10px;
+  background-color: #a3fe9a !important;
+}
+
+.mint__btn:hover {
+  background-color: #000 !important;
+  color: #fff !important;
+  font-weight: bold;
+  border: 1px solid #fff !important;
+}

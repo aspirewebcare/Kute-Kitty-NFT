@@ -1,0 +1,42 @@
+.m2__container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+}
+.st0 {
+  fill: #ff2400 !important;
+}
+.m2__social__box {
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px;
+  background-size: contain;
+  border: 4px solid #000;
+  opacity: 0.5;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.m2__social__box:hover {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #70e000;
+  padding: 10px;
+  background-size: contain;
+  border: 4px solid #70e000;
+  border-radius: 50px;
+  transition: all 0.5s ease-in-out;
+  opacity: 1;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 844px) {
+  .m2__ssocial__box {
+    text-align: center;
+  }
+}

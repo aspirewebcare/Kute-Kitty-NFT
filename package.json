@@ -1,0 +1,88 @@
+{
+  "name": "kutee-kitty",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/preset-react": "^7.18.6",
+    "@coinbase/wallet-sdk": "^3.5.2",
+    "@emotion/core": "^11.0.0",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@metamask/detect-provider": "^1.2.0",
+    "@metamask/onboarding": "^1.0.1",
+    "@react-spring/parallax": "^9.5.2",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@walletconnect/web3-provider": "^1.8.0",
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.2.0",
+    "crypto": "^1.0.1",
+    "crypto-browserify": "^3.12.0",
+    "framer-motion": "^4.1.17",
+    "is-mobile": "^3.1.1",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.2.32",
+    "moment": "^2.29.4",
+    "proptypes": "^1.1.0",
+    "react": "^18.2.0",
+    "react-alice-carousel": "^2.6.4",
+    "react-animated-text-content": "^1.0.1",
+    "react-animation-on-scroll": "^5.1.0",
+    "react-bootstrap": "^2.5.0",
+    "react-bootstrap-icons": "^1.8.4",
+    "react-bootstrap-navbar-offcanvas": "^1.0.3",
+    "react-device-detect": "^2.2.2",
+    "react-dimmer": "^1.0.7",
+    "react-dom": "^18.2.0",
+    "react-elastic-carousel": "^0.11.5",
+    "react-hover-css": "^1.1.0",
+    "react-multi-carousel": "^2.8.2",
+    "react-parallax": "^3.5.1",
+    "react-redux": "^8.0.2",
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^6.3.0",
+    "react-router-hash-link": "^2.4.3",
+    "react-scripts": "^4.0.3",
+    "react-scroll": "^1.8.7",
+    "react-scroll-motion": "^0.3.0",
+    "react-slick": "^0.29.0",
+    "react-spring": "^9.5.2",
+    "react-with-gesture": "^4.0.8",
+    "redux": "^4.2.0",
+    "redux-thunk": "^2.4.1",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.5",
+    "typescript": "^4.8.3",
+    "uuid": "^8.3.2",
+    "web-vitals": "^2.1.4",
+    "web3": "^1.7.5",
+    "web3-utils": "^1.7.5",
+    "web3modal": "^1.9.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

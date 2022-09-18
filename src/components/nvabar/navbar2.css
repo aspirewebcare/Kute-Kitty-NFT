@@ -1,0 +1,373 @@
+.offcanvas-header {
+  background-color: #1b4332;
+  color: #fff;
+  border-top-right-radius: 20px;
+  border-right: 5px solid #fff;
+  text-align: center;
+  justify-content: center !important;
+  z-index: 9999 !important;
+}
+.side__title {
+  font-family: 'BubbleBobble', sans-serif;
+  font-size: 4rem !important;
+  text-align: center;
+}
+.canvas__board {
+  width: 100% !important;
+}
+.side__h2 {
+  color: #fff !important;
+  font-family: 'BubbleBobble', sans-serif;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 3rem;
+  text-align: center !important;
+}
+.side-link a {
+  color: #fff !important;
+  font-family: 'BubbleBobble', sans-serif;
+  padding: 10px 50px !important;
+  text-decoration: none;
+  font-size: 2rem;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #111 !important;
+  border-top: 1px solid #555 !important;
+}
+.side-link a:first-child {
+  border-top: none !important;
+}
+.side-link a:last-child {
+  border-bottom: none !important;
+}
+.side-link a:hover {
+  color: #70e000 !important;
+}
+
+.page__links li,
+.navbar-light .navbar-nav .nav-link {
+  color: #fff !important;
+  font-family: 'BubbleBobble', sans-serif;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.btn-close {
+  width: 30px;
+  height: 30px;
+  color: #70e000 !important;
+  z-index: 99999;
+  opacity: 1 !important;
+  background-color: #70e000 !important;
+  padding: 20px !important;
+  border: 2px solid #000 !important;
+  border-radius: 50px !important;
+  float: right !important;
+  right: 30px;
+  top: 20px;
+  position: absolute;
+  transition: all ease-out 0.3s;
+}
+.btn-close:hover {
+  transform: rotate(90deg) !important;
+  transition: all ease-out 0.3s;
+}
+button.navbar-toggler {
+  border: none;
+}
+
+.offcanvas.offcanvas-start {
+  background: transparent;
+  box-shadow: none !important;
+  border: none !important;
+  width: 50% !important;
+}
+
+.offcanvas-body {
+  /* background-image: url('./../../assets/images/mobi__bg.png')!important; */
+
+  border-top: 2px dashed #fff;
+  background-color: #1b4332;
+  border-bottom-right-radius: 20px;
+  border-right: 5px solid #fff;
+}
+.mobi__discord__btn {
+  margin-top: 30px;
+  color: #fff;
+}
+span.custom__btn {
+  color: #fff;
+}
+.nav__menuBtn {
+  position: relative;
+  background-image: url('../../assets/images/wooden-board.png');
+  background-repeat: no-repeat;
+  background-position: 100% 90% !important;
+  background-size: 90% !important;
+  color: #dbf0d4;
+  font-size: 30px;
+  top: -28px !important;
+  background-color: transparent;
+  height: 220px !important;
+  border: none;
+  padding: 100px 45px 15px 80px !important;
+  min-width: 350px !important;
+  text-shadow: 1px 1px 3px #111 !important;
+  text-transform: uppercase;
+  font-family: 'BubbleBobble', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.nav__menuMint {
+  position: relative;
+  background-image: url('../../assets/images/wooden-board.png');
+  background-repeat: no-repeat;
+  background-position: 100% 90%;
+  background-size: 90%;
+  color: #fff !important;
+  font-size: 30px;
+  top: -28px;
+  background-color: transparent;
+  height: 220px;
+  border: none;
+  padding: 100px 45px 15px 80px;
+  min-width: 350px;
+  text-shadow: 1px 1px 3px #111;
+  text-transform: uppercase;
+  font-family: 'BubbleBobble', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.nav__menuMint a {
+  color: #dbf0d4 !important;
+  text-decoration: none;
+  background-color: none !important;
+  border: none;
+}
+
+.disconnect__nav__connectWallet,
+.back__nav__connectWallet,
+.mint__nav__connectWallet,
+.nav__connectWallet {
+  position: relative;
+  background-image: url('../../assets/images/wooden-board.png');
+  background-repeat: no-repeat;
+  background-position: 100% 90%;
+  background-size: 90%;
+  color: #dbf0d4;
+  font-size: 30px;
+  top: -28px;
+  background-color: transparent;
+  height: 220px;
+  border: none;
+  padding: 100px 45px 15px 80px;
+  min-width: 350px;
+  text-shadow: 1px 1px 3px #111;
+  text-transform: uppercase;
+  font-family: 'BubbleBobble', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* /////// hover effect /////// */
+
+/* .hvr-bounce-to-right {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  border-radius: 10px;
+  border: none;
+  overflow: hidden;
+} */
+
+/* .hvr-bounce-to-right::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  min-width: 200px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #004b23;
+  border-radius: 10px !important;
+  -webkit-transform: scaleX(0) !important;
+  transform: scaleX(0) !important;
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+} */
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none !important;
+  background-color: red;
+}
+
+.hvr-bounce-to-right:hover,
+.hvr-bounce-to-right:focus {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none !important;
+}
+.hvr-bounce-to-right:active,
+.hvr-bounce-to-right:focus {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none !important;
+}
+
+.hvr-bounce-to-right:hover:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1) !important;
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+
+@media screen and (max-width: 768px) {
+  .offcanvas.offcanvas-start {
+    background: transparent;
+    box-shadow: none !important;
+    border: none !important;
+    width: 100% !important;
+  }
+  .btn-close {
+    width: 20px !important;
+    height: 20px !important;
+    color: #70e000 !important;
+    z-index: 99999;
+    opacity: 1 !important;
+    background-color: #70e000 !important;
+    padding: 10px !important;
+    border: 1px solid #000 !important;
+    border-radius: 50px !important;
+    float: right !important;
+    right: 20px;
+    top: 10px;
+    position: absolute;
+    transition: all ease-out 0.3s;
+  }
+  .offcanvas-header {
+    border-top-right-radius: 0px !important;
+    border-right: 0px solid #fff !important;
+  }
+  .nav__menuBtn {
+    position: relative;
+    background-image: url('../../assets/images/wooden-board.png');
+    background-repeat: no-repeat;
+    background-position: 0% 90% !important;
+    background-size: 94% !important;
+    color: #dbf0d4;
+    font-size: 22px;
+    top: -65px !important;
+    background-color: transparent;
+    height: 220px !important;
+    border: none;
+    padding: 100px 120px 15px 80px !important;
+    min-width: 300px !important;
+    z-index: 1;
+  }
+  .back__nav__connectWallet {
+    position: relative;
+    background-image: url('../../assets/images/wooden-board.png');
+    background-repeat: no-repeat;
+    background-position: 50% 90% !important;
+    background-size: 80% !important;
+    color: #dbf0d4;
+    font-size: 22px;
+    top: -65px !important;
+    background-color: transparent;
+    height: 220px !important;
+    border: none;
+    font-family: 'BubbleBobble', sans-serif;
+    padding: 110px 80px 15px 80px !important;
+    min-width: 300px !important;
+    z-index: 1;
+  }
+
+  .disconnect__nav__connectWallet {
+    position: relative;
+    background-image: url('../../assets/images/wooden-board.png');
+    background-repeat: no-repeat;
+    background-position: 50% 90%;
+    background-size: 80%;
+    color: #fff;
+    font-family: 'BubbleBobble', sans-serif;
+    font-size: 22px;
+    padding: 60px 120px 15px 100px !important;
+    top: -90px;
+    height: 160px;
+    min-width: 180px !important;
+    text-align: center;
+  }
+
+  .nav__connectWallet {
+    position: relative;
+    background-image: url('../../assets/images/wooden-board.png');
+    background-repeat: no-repeat;
+    background-position: 50% 90%;
+    background-size: 85%;
+    font-size: 22px;
+    padding: 60px 90px 15px 80px !important;
+    top: -97px;
+    height: 160px;
+    min-width: 180px !important;
+    text-align: center;
+  }
+  .mint__nav__connectWallet {
+    position: relative;
+    background-image: url('../../assets/images/wooden-board.png');
+    background-repeat: no-repeat;
+    background-position: 50% 90% !important;
+    background-size: 80% !important;
+    color: #dbf0d4;
+    font-size: 22px;
+    top: -145px !important;
+    background-color: transparent;
+    height: 220px !important;
+    border: none;
+    font-family: 'BubbleBobble', sans-serif;
+    padding: 110px 80px 15px 80px !important;
+    min-width: 300px !important;
+  }
+  .nav__menuMint {
+    position: relative;
+    background-image: url('../../assets/images/wooden-board.png');
+    background-repeat: no-repeat;
+    background-position: 50% 90%;
+    background-size: 90%;
+    color: #fff !important;
+    font-size: 24px;
+    top: -150px;
+    background-color: transparent;
+    height: 220px;
+    border: none;
+    padding: 100px 85px 15px 80px;
+    min-width: 300px;
+    text-shadow: 1px 1px 3px #111;
+  }
+  .nav__menuMint a {
+    color: #dbf0d4 !important;
+    text-decoration: none;
+    background-color: none !important;
+    border: none;
+  }
+}

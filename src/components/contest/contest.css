@@ -1,0 +1,97 @@
+.contest__main__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px 100px 0px !important;
+  background-image: url('https://secretkoalasociety.com/images/background_third_section.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #dbf0d4;
+  position: relative;
+  /* border: 10px solid #fff; */
+}
+.contest__h1 {
+  font-size: 12rem;
+  font-family: 'BubbleBobble', sans-serif;
+  font-weight: 900;
+  color: #fff;
+  line-height: 1;
+  text-align: center;
+  text-shadow: 2px 2px 2px #475f53;
+  padding: 100px 50px 50px 50px !important;
+}
+.contest__h3 {
+  font-size: 3rem;
+  /* text-align: center; */
+  font-family: 'BubbleBobble', sans-serif;
+  color: #fff;
+  line-height: 1;
+  text-shadow: 2px 2px 2px #000;
+  padding-bottom: 40px !important;
+}
+.contest__h4 {
+  font-size: 3rem;
+  font-family: 'BubbleBobble', sans-serif;
+  color: #38b000;
+  line-height: 1;
+  text-shadow: 2px 2px 2px #000;
+  padding: 30px 0px 10px 0px !important;
+}
+
+.c__arrow__down {
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  padding: 7px;
+  margin: 50px 0px 0px 0px;
+}
+
+.contest__p {
+  font-size: 2rem;
+  font-family: 'BubbleBobble', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 20px 0px 20px 0px !important;
+}
+.contest__p__box {
+  font-size: 2rem;
+  font-family: 'BubbleBobble', sans-serif;
+  color: #058243;
+  border: 5px solid #cbdec4;
+  padding: 20px !important;
+  border-radius: 20px;
+  background-color: #dbf0d4;
+}
+
+@media screen and (max-width: 786px) {
+  .contest__h1 {
+    font-size: 4.5rem;
+    padding: 20px !important;
+    text-align: center;
+  }
+  .contest__h3 {
+    font-size: 2rem;
+    padding: 10px 15px !important;
+  }
+  .contest__h4 {
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+    padding: 30px 0px 30px 0px !important;
+  }
+  .contest__p {
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px 0px 20px 0px !important;
+  }
+  .contest__p__box {
+    font-size: 1.5rem;
+    text-align: center;
+    border: 2px solid #fff;
+    padding: 10px !important;
+    border-radius: 10px;
+  }
+}

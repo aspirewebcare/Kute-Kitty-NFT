@@ -1,0 +1,23 @@
+.slider {
+  border-radius: 25px;
+  border: 1px solid #fff;
+  overflow: hidden;
+}
+.hero__slide__img {
+  opacity: 1;
+}
+
+@media screen and (max-width: 786px) {
+  .slider {
+    width: 300px !important;
+    justify-content: center;
+    text-align: center;
+  }
+  .parent {
+    display: flex !important;
+    text-align: center !important;
+    justify-content: center !important;
+    padding-left: 30px !important;
+    margin-bottom: 30px !important;
+  }
+}

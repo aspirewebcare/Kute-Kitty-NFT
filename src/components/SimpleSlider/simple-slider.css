@@ -1,0 +1,136 @@
+.falcon__slider {
+  position: relative;
+  width: 100%;
+  padding: 50px 50px 60px 50px !important;
+}
+
+.slick-arrow {
+  margin-top: -15px;
+}
+/* .slick-list{
+    margin-left: 35px;
+} */
+.falcon__row__top {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  margin: 0px !important;
+  padding: 0px;
+  text-align: center !important;
+}
+
+.slick-prev:before {
+  background-image: url('./../../assets/images/catpaw-left.svg');
+  fill: #000b42;
+  color: transparent;
+  font-size: 30px !important;
+  background-repeat: no-repeat;
+  background-position: center center;
+  animation: pulse 2s infinite;
+  box-shadow: 0 0 0 0 rgba(255, 255, 255, 1);
+}
+
+.slick-next:before {
+  background-image: url('./../../assets/images/catpaw-right.svg');
+  fill: #000b42;
+  color: transparent;
+  font-size: 30px !important;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+ul.slick-dots {
+  position: relative;
+  font-size: 10px;
+  margin-bottom: 50px;
+}
+.slick-dots li {
+  width: 15px;
+  height: 15px;
+}
+
+.slick-dots li button:before {
+  color: #000b42;
+  border: #000b42 2px solid;
+  background-color: #000b42;
+  border-radius: 50px;
+  opacity: 1 !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #dc9402;
+  border: #dc9402 2px solid;
+  background-color: #dc9402;
+  border-radius: 50px;
+}
+.slick-initialized .slick-slide {
+  margin: 0px !important;
+  display: flex;
+  justify-content: center;
+}
+
+.slick-slide img {
+  padding: 10px !important;
+  border-radius: 100%;
+  margin-left: 5px !important;
+}
+
+/* .roadmap__circle {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background: #a3fe9a;
+  border-radius: 50%;
+  margin: 10px;
+  height: 20px;
+  width: 20px;
+  left: 33px;
+  box-shadow: 0 0 0 0 rgba(255, 255, 255, 1);
+  transform: scale(1);
+  animation: pulse 2s infinite;
+} */
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+  }
+
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .falcon__slider {
+    padding: 30px 20px 10px 0px !important;
+  }
+  .slick-prev:before {
+    background-image: url('./../../assets/images/catpaw-left.svg');
+    fill: #000b42;
+    color: transparent;
+    font-size: 10px;
+    padding: 5px;
+  }
+
+  .slick-next:before {
+    background-image: url('./../../assets/images/catpaw-right.svg');
+    fill: #000b42;
+    color: transparent;
+    font-size: 10px;
+    padding: 5px;
+  }
+  .slick-list {
+    margin-left: 0 !important;
+  }
+  .slick-slide img {
+    margin-left: 10px !important;
+  }
+}

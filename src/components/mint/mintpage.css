@@ -1,0 +1,57 @@
+.mint__main__container {
+  background-color: #dbf0d4;
+  background-image: url('../../assets/images/linaa2.png');
+  background-position: 100% -60px !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 0px 0px 100px 0px !important;
+}
+/* .utility__section {
+  background-color: #1b4332;
+  padding: 0px !important;
+  margin: 0px !important;
+} */
+.ty__mint__image {
+  width: 400px;
+  text-align: center;
+  border-radius: 15px !important;
+}
+
+.links__row {
+  padding: 20px 50px;
+}
+.mint__breadcrumbs {
+  color: #fff;
+  font-size: 18px;
+  align-items: center;
+  display: flex;
+  margin-left: 125px;
+  font-weight: bold;
+}
+.minttimer__h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.ty__minttimer__p1,
+.price__eth {
+  color: #fff;
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .ty__column2 {
+    text-align: center;
+  }
+  .minttimer__h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    padding: 0px !important;
+  }
+  .ty__mint__image {
+    width: 90% !important;
+    margin: 0px auto !important;
+  }
+}
